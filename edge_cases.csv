@@ -1,0 +1,838 @@
+scenario,solution,case,baseline,solution_output,match
+P2 documents,Human,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,Human,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,Human,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,Human,unknown format,<ValueError>,<ValueError>,1
+P2 documents,Human,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-4o 01,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 01,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 01,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 01,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 01,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-4o 02,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 02,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 02,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 02,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 02,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-4o 03,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 03,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 03,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 03,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 03,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-4o 04,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 04,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 04,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 04,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 04,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-4o 05,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 05,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 05,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 05,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 05,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-4o 06,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 06,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 06,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 06,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 06,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-4o 07,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 07,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 07,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 07,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 07,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-4o 08,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 08,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 08,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 08,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 08,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-4o 09,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 09,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 09,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 09,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 09,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-4o 10,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 10,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-4o 10,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 10,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-4o 10,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-5.4 01,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 01,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 01,padded ' pdf ',<ValueError>,<PDF Document>x</PDF Document>,0
+P2 documents,gpt-5.4 01,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-5.4 01,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-5.4 02,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 02,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 02,padded ' pdf ',<ValueError>,<PDF Document>x</PDF Document>,0
+P2 documents,gpt-5.4 02,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-5.4 02,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-5.4 03,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 03,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 03,padded ' pdf ',<ValueError>,<PDF Document>x</PDF Document>,0
+P2 documents,gpt-5.4 03,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-5.4 03,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-5.4 04,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 04,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 04,padded ' pdf ',<ValueError>,<PDF Document>x</PDF Document>,0
+P2 documents,gpt-5.4 04,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-5.4 04,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-5.4 05,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 05,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 05,padded ' pdf ',<ValueError>,<PDF Document>x</PDF Document>,0
+P2 documents,gpt-5.4 05,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-5.4 05,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-5.4 06,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 06,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 06,padded ' pdf ',<ValueError>,<PDF Document>x</PDF Document>,0
+P2 documents,gpt-5.4 06,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-5.4 06,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-5.4 07,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 07,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 07,padded ' pdf ',<ValueError>,<PDF Document>x</PDF Document>,0
+P2 documents,gpt-5.4 07,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-5.4 07,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-5.4 08,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 08,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 08,padded ' pdf ',<ValueError>,<PDF Document>x</PDF Document>,0
+P2 documents,gpt-5.4 08,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-5.4 08,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-5.4 09,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 09,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 09,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-5.4 09,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-5.4 09,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-5.4 10,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 10,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-5.4 10,padded ' pdf ',<ValueError>,<PDF Document>x</PDF Document>,0
+P2 documents,gpt-5.4 10,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-5.4 10,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-6-astra 01,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 01,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 01,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 01,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 01,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-6-astra 02,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 02,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 02,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 02,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 02,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-6-astra 03,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 03,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 03,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 03,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 03,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-6-astra 04,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 04,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 04,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 04,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 04,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-6-astra 05,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 05,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 05,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 05,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 05,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-6-astra 06,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 06,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 06,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 06,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 06,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-6-astra 07,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 07,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 07,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 07,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 07,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-6-astra 08,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 08,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 08,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 08,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 08,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-6-astra 09,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 09,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 09,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 09,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 09,empty data,Error: No data,Error: No data,1
+P2 documents,gpt-6-astra 10,lowercase 'pdf',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 10,uppercase 'PDF',<PDF Document>x</PDF Document>,<PDF Document>x</PDF Document>,1
+P2 documents,gpt-6-astra 10,padded ' pdf ',<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 10,unknown format,<ValueError>,<ValueError>,1
+P2 documents,gpt-6-astra 10,empty data,Error: No data,Error: No data,1
+P2 discounts,Human,REGULAR 10 items,500.0,500.0,1
+P2 discounts,Human,REGULAR 11 items,475.0,475.0,1
+P2 discounts,Human,VIP price 1000,900.0,900.0,1
+P2 discounts,Human,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,Human,lowercase 'vip',1200.0,1200.0,1
+P2 discounts,Human,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,Human,unknown type,100.0,100.0,1
+P2 discounts,Human,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,Human,price 0,0.0,0.0,1
+P2 discounts,Human,negative price,-8.0,-8.0,1
+P2 discounts,Human,negative items,100.0,100.0,1
+P2 discounts,gpt-4o 01,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-4o 01,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-4o 01,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-4o 01,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-4o 01,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-4o 01,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-4o 01,unknown type,100.0,100.0,1
+P2 discounts,gpt-4o 01,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-4o 01,price 0,0.0,0.0,1
+P2 discounts,gpt-4o 01,negative price,-8.0,-8.0,1
+P2 discounts,gpt-4o 01,negative items,100.0,100.0,1
+P2 discounts,gpt-4o 02,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-4o 02,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-4o 02,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-4o 02,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-4o 02,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-4o 02,padded ' VIP ',1200.0,<ValueError>,0
+P2 discounts,gpt-4o 02,unknown type,100.0,<ValueError>,0
+P2 discounts,gpt-4o 02,BLACK_FRIDAY,100.0,<ValueError>,0
+P2 discounts,gpt-4o 02,price 0,0.0,0.0,1
+P2 discounts,gpt-4o 02,negative price,-8.0,-8.0,1
+P2 discounts,gpt-4o 02,negative items,100.0,100.0,1
+P2 discounts,gpt-4o 03,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-4o 03,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-4o 03,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-4o 03,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-4o 03,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-4o 03,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-4o 03,unknown type,100.0,100.0,1
+P2 discounts,gpt-4o 03,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-4o 03,price 0,0.0,0.0,1
+P2 discounts,gpt-4o 03,negative price,-8.0,-8.0,1
+P2 discounts,gpt-4o 03,negative items,100.0,100.0,1
+P2 discounts,gpt-4o 04,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-4o 04,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-4o 04,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-4o 04,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-4o 04,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-4o 04,padded ' VIP ',1200.0,<ValueError>,0
+P2 discounts,gpt-4o 04,unknown type,100.0,<ValueError>,0
+P2 discounts,gpt-4o 04,BLACK_FRIDAY,100.0,<ValueError>,0
+P2 discounts,gpt-4o 04,price 0,0.0,0.0,1
+P2 discounts,gpt-4o 04,negative price,-8.0,-8.0,1
+P2 discounts,gpt-4o 04,negative items,100.0,100.0,1
+P2 discounts,gpt-4o 05,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-4o 05,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-4o 05,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-4o 05,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-4o 05,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-4o 05,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-4o 05,unknown type,100.0,100.0,1
+P2 discounts,gpt-4o 05,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-4o 05,price 0,0.0,0.0,1
+P2 discounts,gpt-4o 05,negative price,-8.0,-8.0,1
+P2 discounts,gpt-4o 05,negative items,100.0,100.0,1
+P2 discounts,gpt-4o 06,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-4o 06,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-4o 06,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-4o 06,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-4o 06,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-4o 06,padded ' VIP ',1200.0,<ValueError>,0
+P2 discounts,gpt-4o 06,unknown type,100.0,<ValueError>,0
+P2 discounts,gpt-4o 06,BLACK_FRIDAY,100.0,<ValueError>,0
+P2 discounts,gpt-4o 06,price 0,0.0,0.0,1
+P2 discounts,gpt-4o 06,negative price,-8.0,-8.0,1
+P2 discounts,gpt-4o 06,negative items,100.0,100.0,1
+P2 discounts,gpt-4o 07,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-4o 07,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-4o 07,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-4o 07,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-4o 07,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-4o 07,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-4o 07,unknown type,100.0,100.0,1
+P2 discounts,gpt-4o 07,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-4o 07,price 0,0.0,0.0,1
+P2 discounts,gpt-4o 07,negative price,-8.0,-8.0,1
+P2 discounts,gpt-4o 07,negative items,100.0,100.0,1
+P2 discounts,gpt-4o 08,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-4o 08,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-4o 08,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-4o 08,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-4o 08,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-4o 08,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-4o 08,unknown type,100.0,100.0,1
+P2 discounts,gpt-4o 08,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-4o 08,price 0,0.0,0.0,1
+P2 discounts,gpt-4o 08,negative price,-8.0,-8.0,1
+P2 discounts,gpt-4o 08,negative items,100.0,100.0,1
+P2 discounts,gpt-4o 09,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-4o 09,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-4o 09,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-4o 09,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-4o 09,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-4o 09,padded ' VIP ',1200.0,<ValueError>,0
+P2 discounts,gpt-4o 09,unknown type,100.0,<ValueError>,0
+P2 discounts,gpt-4o 09,BLACK_FRIDAY,100.0,<ValueError>,0
+P2 discounts,gpt-4o 09,price 0,0.0,0.0,1
+P2 discounts,gpt-4o 09,negative price,-8.0,-8.0,1
+P2 discounts,gpt-4o 09,negative items,100.0,100.0,1
+P2 discounts,gpt-4o 10,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-4o 10,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-4o 10,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-4o 10,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-4o 10,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-4o 10,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-4o 10,unknown type,100.0,100.0,1
+P2 discounts,gpt-4o 10,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-4o 10,price 0,0.0,0.0,1
+P2 discounts,gpt-4o 10,negative price,-8.0,-8.0,1
+P2 discounts,gpt-4o 10,negative items,100.0,100.0,1
+P2 discounts,gpt-5.4 01,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-5.4 01,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-5.4 01,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-5.4 01,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-5.4 01,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-5.4 01,padded ' VIP ',1200.0,1020.0,0
+P2 discounts,gpt-5.4 01,unknown type,100.0,100.0,1
+P2 discounts,gpt-5.4 01,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-5.4 01,price 0,0.0,0.0,1
+P2 discounts,gpt-5.4 01,negative price,-8.0,-8.0,1
+P2 discounts,gpt-5.4 01,negative items,100.0,100.0,1
+P2 discounts,gpt-5.4 02,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-5.4 02,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-5.4 02,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-5.4 02,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-5.4 02,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-5.4 02,padded ' VIP ',1200.0,1020.0,0
+P2 discounts,gpt-5.4 02,unknown type,100.0,100.0,1
+P2 discounts,gpt-5.4 02,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-5.4 02,price 0,0.0,0.0,1
+P2 discounts,gpt-5.4 02,negative price,-8.0,-8.0,1
+P2 discounts,gpt-5.4 02,negative items,100.0,100.0,1
+P2 discounts,gpt-5.4 03,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-5.4 03,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-5.4 03,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-5.4 03,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-5.4 03,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-5.4 03,padded ' VIP ',1200.0,1020.0,0
+P2 discounts,gpt-5.4 03,unknown type,100.0,100.0,1
+P2 discounts,gpt-5.4 03,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-5.4 03,price 0,0.0,0.0,1
+P2 discounts,gpt-5.4 03,negative price,-8.0,-8.0,1
+P2 discounts,gpt-5.4 03,negative items,100.0,100.0,1
+P2 discounts,gpt-5.4 04,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-5.4 04,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-5.4 04,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-5.4 04,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-5.4 04,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-5.4 04,padded ' VIP ',1200.0,1020.0,0
+P2 discounts,gpt-5.4 04,unknown type,100.0,100.0,1
+P2 discounts,gpt-5.4 04,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-5.4 04,price 0,0.0,0.0,1
+P2 discounts,gpt-5.4 04,negative price,-8.0,-8.0,1
+P2 discounts,gpt-5.4 04,negative items,100.0,100.0,1
+P2 discounts,gpt-5.4 05,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-5.4 05,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-5.4 05,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-5.4 05,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-5.4 05,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-5.4 05,padded ' VIP ',1200.0,1020.0,0
+P2 discounts,gpt-5.4 05,unknown type,100.0,100.0,1
+P2 discounts,gpt-5.4 05,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-5.4 05,price 0,0.0,0.0,1
+P2 discounts,gpt-5.4 05,negative price,-8.0,-8.0,1
+P2 discounts,gpt-5.4 05,negative items,100.0,100.0,1
+P2 discounts,gpt-5.4 06,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-5.4 06,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-5.4 06,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-5.4 06,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-5.4 06,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-5.4 06,padded ' VIP ',1200.0,1020.0,0
+P2 discounts,gpt-5.4 06,unknown type,100.0,100.0,1
+P2 discounts,gpt-5.4 06,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-5.4 06,price 0,0.0,0.0,1
+P2 discounts,gpt-5.4 06,negative price,-8.0,-8.0,1
+P2 discounts,gpt-5.4 06,negative items,100.0,100.0,1
+P2 discounts,gpt-5.4 07,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-5.4 07,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-5.4 07,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-5.4 07,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-5.4 07,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-5.4 07,padded ' VIP ',1200.0,1020.0,0
+P2 discounts,gpt-5.4 07,unknown type,100.0,100.0,1
+P2 discounts,gpt-5.4 07,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-5.4 07,price 0,0.0,0.0,1
+P2 discounts,gpt-5.4 07,negative price,-8.0,-8.0,1
+P2 discounts,gpt-5.4 07,negative items,100.0,100.0,1
+P2 discounts,gpt-5.4 08,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-5.4 08,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-5.4 08,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-5.4 08,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-5.4 08,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-5.4 08,padded ' VIP ',1200.0,1020.0,0
+P2 discounts,gpt-5.4 08,unknown type,100.0,100.0,1
+P2 discounts,gpt-5.4 08,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-5.4 08,price 0,0.0,0.0,1
+P2 discounts,gpt-5.4 08,negative price,-8.0,-8.0,1
+P2 discounts,gpt-5.4 08,negative items,100.0,100.0,1
+P2 discounts,gpt-5.4 09,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-5.4 09,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-5.4 09,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-5.4 09,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-5.4 09,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-5.4 09,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-5.4 09,unknown type,100.0,100.0,1
+P2 discounts,gpt-5.4 09,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-5.4 09,price 0,0.0,0.0,1
+P2 discounts,gpt-5.4 09,negative price,-8.0,-8.0,1
+P2 discounts,gpt-5.4 09,negative items,100.0,100.0,1
+P2 discounts,gpt-5.4 10,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-5.4 10,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-5.4 10,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-5.4 10,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-5.4 10,lowercase 'vip',1200.0,1020.0,0
+P2 discounts,gpt-5.4 10,padded ' VIP ',1200.0,1020.0,0
+P2 discounts,gpt-5.4 10,unknown type,100.0,100.0,1
+P2 discounts,gpt-5.4 10,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-5.4 10,price 0,0.0,0.0,1
+P2 discounts,gpt-5.4 10,negative price,-8.0,-8.0,1
+P2 discounts,gpt-5.4 10,negative items,100.0,100.0,1
+P2 discounts,gpt-6-astra 01,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-6-astra 01,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-6-astra 01,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-6-astra 01,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-6-astra 01,lowercase 'vip',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 01,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 01,unknown type,100.0,100.0,1
+P2 discounts,gpt-6-astra 01,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-6-astra 01,price 0,0.0,0.0,1
+P2 discounts,gpt-6-astra 01,negative price,-8.0,-8.0,1
+P2 discounts,gpt-6-astra 01,negative items,100.0,100.0,1
+P2 discounts,gpt-6-astra 02,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-6-astra 02,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-6-astra 02,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-6-astra 02,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-6-astra 02,lowercase 'vip',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 02,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 02,unknown type,100.0,100.0,1
+P2 discounts,gpt-6-astra 02,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-6-astra 02,price 0,0.0,0.0,1
+P2 discounts,gpt-6-astra 02,negative price,-8.0,-8.0,1
+P2 discounts,gpt-6-astra 02,negative items,100.0,100.0,1
+P2 discounts,gpt-6-astra 03,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-6-astra 03,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-6-astra 03,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-6-astra 03,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-6-astra 03,lowercase 'vip',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 03,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 03,unknown type,100.0,100.0,1
+P2 discounts,gpt-6-astra 03,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-6-astra 03,price 0,0.0,0.0,1
+P2 discounts,gpt-6-astra 03,negative price,-8.0,-8.0,1
+P2 discounts,gpt-6-astra 03,negative items,100.0,100.0,1
+P2 discounts,gpt-6-astra 04,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-6-astra 04,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-6-astra 04,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-6-astra 04,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-6-astra 04,lowercase 'vip',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 04,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 04,unknown type,100.0,100.0,1
+P2 discounts,gpt-6-astra 04,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-6-astra 04,price 0,0.0,0.0,1
+P2 discounts,gpt-6-astra 04,negative price,-8.0,-8.0,1
+P2 discounts,gpt-6-astra 04,negative items,100.0,100.0,1
+P2 discounts,gpt-6-astra 05,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-6-astra 05,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-6-astra 05,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-6-astra 05,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-6-astra 05,lowercase 'vip',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 05,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 05,unknown type,100.0,100.0,1
+P2 discounts,gpt-6-astra 05,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-6-astra 05,price 0,0.0,0.0,1
+P2 discounts,gpt-6-astra 05,negative price,-8.0,-8.0,1
+P2 discounts,gpt-6-astra 05,negative items,100.0,100.0,1
+P2 discounts,gpt-6-astra 06,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-6-astra 06,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-6-astra 06,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-6-astra 06,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-6-astra 06,lowercase 'vip',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 06,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 06,unknown type,100.0,100.0,1
+P2 discounts,gpt-6-astra 06,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-6-astra 06,price 0,0.0,0.0,1
+P2 discounts,gpt-6-astra 06,negative price,-8.0,-8.0,1
+P2 discounts,gpt-6-astra 06,negative items,100.0,100.0,1
+P2 discounts,gpt-6-astra 07,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-6-astra 07,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-6-astra 07,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-6-astra 07,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-6-astra 07,lowercase 'vip',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 07,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 07,unknown type,100.0,100.0,1
+P2 discounts,gpt-6-astra 07,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-6-astra 07,price 0,0.0,0.0,1
+P2 discounts,gpt-6-astra 07,negative price,-8.0,-8.0,1
+P2 discounts,gpt-6-astra 07,negative items,100.0,100.0,1
+P2 discounts,gpt-6-astra 08,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-6-astra 08,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-6-astra 08,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-6-astra 08,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-6-astra 08,lowercase 'vip',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 08,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 08,unknown type,100.0,100.0,1
+P2 discounts,gpt-6-astra 08,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-6-astra 08,price 0,0.0,0.0,1
+P2 discounts,gpt-6-astra 08,negative price,-8.0,-8.0,1
+P2 discounts,gpt-6-astra 08,negative items,100.0,100.0,1
+P2 discounts,gpt-6-astra 09,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-6-astra 09,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-6-astra 09,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-6-astra 09,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-6-astra 09,lowercase 'vip',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 09,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 09,unknown type,100.0,100.0,1
+P2 discounts,gpt-6-astra 09,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-6-astra 09,price 0,0.0,0.0,1
+P2 discounts,gpt-6-astra 09,negative price,-8.0,-8.0,1
+P2 discounts,gpt-6-astra 09,negative items,100.0,100.0,1
+P2 discounts,gpt-6-astra 10,REGULAR 10 items,500.0,500.0,1
+P2 discounts,gpt-6-astra 10,REGULAR 11 items,475.0,475.0,1
+P2 discounts,gpt-6-astra 10,VIP price 1000,900.0,900.0,1
+P2 discounts,gpt-6-astra 10,VIP price 1000.01,850.0085,850.0085,1
+P2 discounts,gpt-6-astra 10,lowercase 'vip',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 10,padded ' VIP ',1200.0,1200.0,1
+P2 discounts,gpt-6-astra 10,unknown type,100.0,100.0,1
+P2 discounts,gpt-6-astra 10,BLACK_FRIDAY,100.0,100.0,1
+P2 discounts,gpt-6-astra 10,price 0,0.0,0.0,1
+P2 discounts,gpt-6-astra 10,negative price,-8.0,-8.0,1
+P2 discounts,gpt-6-astra 10,negative items,100.0,100.0,1
+P4 discounts,Human,REGULAR 10 items,500.0,500.0,1
+P4 discounts,Human,REGULAR 11 items,475.0,475.0,1
+P4 discounts,Human,VIP price 1000,900.0,900.0,1
+P4 discounts,Human,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,Human,lowercase 'vip',1200.0,1200.0,1
+P4 discounts,Human,padded ' VIP ',1200.0,1200.0,1
+P4 discounts,Human,unknown type,100.0,100.0,1
+P4 discounts,Human,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,Human,price 0,0.0,0.0,1
+P4 discounts,Human,negative price,-8.0,-8.0,1
+P4 discounts,Human,negative items,100.0,100.0,1
+P4 discounts,gpt-4o 01,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-4o 01,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-4o 01,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-4o 01,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-4o 01,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-4o 01,padded ' VIP ',1200.0,<ValueError>,0
+P4 discounts,gpt-4o 01,unknown type,100.0,<ValueError>,0
+P4 discounts,gpt-4o 01,BLACK_FRIDAY,100.0,<ValueError>,0
+P4 discounts,gpt-4o 01,price 0,0.0,0.0,1
+P4 discounts,gpt-4o 01,negative price,-8.0,-8.0,1
+P4 discounts,gpt-4o 01,negative items,100.0,100.0,1
+P4 discounts,gpt-4o 02,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-4o 02,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-4o 02,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-4o 02,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-4o 02,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-4o 02,padded ' VIP ',1200.0,<ValueError>,0
+P4 discounts,gpt-4o 02,unknown type,100.0,<ValueError>,0
+P4 discounts,gpt-4o 02,BLACK_FRIDAY,100.0,<ValueError>,0
+P4 discounts,gpt-4o 02,price 0,0.0,0.0,1
+P4 discounts,gpt-4o 02,negative price,-8.0,-8.0,1
+P4 discounts,gpt-4o 02,negative items,100.0,100.0,1
+P4 discounts,gpt-4o 03,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-4o 03,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-4o 03,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-4o 03,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-4o 03,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-4o 03,padded ' VIP ',1200.0,<ValueError>,0
+P4 discounts,gpt-4o 03,unknown type,100.0,<ValueError>,0
+P4 discounts,gpt-4o 03,BLACK_FRIDAY,100.0,<ValueError>,0
+P4 discounts,gpt-4o 03,price 0,0.0,0.0,1
+P4 discounts,gpt-4o 03,negative price,-8.0,-8.0,1
+P4 discounts,gpt-4o 03,negative items,100.0,100.0,1
+P4 discounts,gpt-4o 04,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-4o 04,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-4o 04,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-4o 04,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-4o 04,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-4o 04,padded ' VIP ',1200.0,<ValueError>,0
+P4 discounts,gpt-4o 04,unknown type,100.0,<ValueError>,0
+P4 discounts,gpt-4o 04,BLACK_FRIDAY,100.0,<ValueError>,0
+P4 discounts,gpt-4o 04,price 0,0.0,0.0,1
+P4 discounts,gpt-4o 04,negative price,-8.0,-8.0,1
+P4 discounts,gpt-4o 04,negative items,100.0,100.0,1
+P4 discounts,gpt-4o 05,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-4o 05,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-4o 05,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-4o 05,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-4o 05,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-4o 05,padded ' VIP ',1200.0,<ValueError>,0
+P4 discounts,gpt-4o 05,unknown type,100.0,<ValueError>,0
+P4 discounts,gpt-4o 05,BLACK_FRIDAY,100.0,<ValueError>,0
+P4 discounts,gpt-4o 05,price 0,0.0,0.0,1
+P4 discounts,gpt-4o 05,negative price,-8.0,-8.0,1
+P4 discounts,gpt-4o 05,negative items,100.0,100.0,1
+P4 discounts,gpt-4o 06,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-4o 06,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-4o 06,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-4o 06,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-4o 06,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-4o 06,padded ' VIP ',1200.0,<ValueError>,0
+P4 discounts,gpt-4o 06,unknown type,100.0,<ValueError>,0
+P4 discounts,gpt-4o 06,BLACK_FRIDAY,100.0,<ValueError>,0
+P4 discounts,gpt-4o 06,price 0,0.0,0.0,1
+P4 discounts,gpt-4o 06,negative price,-8.0,-8.0,1
+P4 discounts,gpt-4o 06,negative items,100.0,100.0,1
+P4 discounts,gpt-4o 07,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-4o 07,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-4o 07,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-4o 07,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-4o 07,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-4o 07,padded ' VIP ',1200.0,<ValueError>,0
+P4 discounts,gpt-4o 07,unknown type,100.0,<ValueError>,0
+P4 discounts,gpt-4o 07,BLACK_FRIDAY,100.0,<ValueError>,0
+P4 discounts,gpt-4o 07,price 0,0.0,0.0,1
+P4 discounts,gpt-4o 07,negative price,-8.0,-8.0,1
+P4 discounts,gpt-4o 07,negative items,100.0,100.0,1
+P4 discounts,gpt-4o 08,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-4o 08,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-4o 08,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-4o 08,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-4o 08,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-4o 08,padded ' VIP ',1200.0,<ValueError>,0
+P4 discounts,gpt-4o 08,unknown type,100.0,<ValueError>,0
+P4 discounts,gpt-4o 08,BLACK_FRIDAY,100.0,<ValueError>,0
+P4 discounts,gpt-4o 08,price 0,0.0,0.0,1
+P4 discounts,gpt-4o 08,negative price,-8.0,-8.0,1
+P4 discounts,gpt-4o 08,negative items,100.0,100.0,1
+P4 discounts,gpt-4o 09,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-4o 09,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-4o 09,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-4o 09,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-4o 09,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-4o 09,padded ' VIP ',1200.0,1200.0,1
+P4 discounts,gpt-4o 09,unknown type,100.0,100.0,1
+P4 discounts,gpt-4o 09,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-4o 09,price 0,0.0,0.0,1
+P4 discounts,gpt-4o 09,negative price,-8.0,-8.0,1
+P4 discounts,gpt-4o 09,negative items,100.0,100.0,1
+P4 discounts,gpt-4o 10,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-4o 10,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-4o 10,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-4o 10,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-4o 10,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-4o 10,padded ' VIP ',1200.0,<ValueError>,0
+P4 discounts,gpt-4o 10,unknown type,100.0,<ValueError>,0
+P4 discounts,gpt-4o 10,BLACK_FRIDAY,100.0,<ValueError>,0
+P4 discounts,gpt-4o 10,price 0,0.0,0.0,1
+P4 discounts,gpt-4o 10,negative price,-8.0,-8.0,1
+P4 discounts,gpt-4o 10,negative items,100.0,100.0,1
+P4 discounts,gpt-5.4 01,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-5.4 01,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-5.4 01,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-5.4 01,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-5.4 01,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-5.4 01,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-5.4 01,unknown type,100.0,100.0,1
+P4 discounts,gpt-5.4 01,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-5.4 01,price 0,0.0,0.0,1
+P4 discounts,gpt-5.4 01,negative price,-8.0,<ValueError>,0
+P4 discounts,gpt-5.4 01,negative items,100.0,<ValueError>,0
+P4 discounts,gpt-5.4 02,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-5.4 02,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-5.4 02,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-5.4 02,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-5.4 02,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-5.4 02,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-5.4 02,unknown type,100.0,100.0,1
+P4 discounts,gpt-5.4 02,BLACK_FRIDAY,100.0,70.0,0
+P4 discounts,gpt-5.4 02,price 0,0.0,0.0,1
+P4 discounts,gpt-5.4 02,negative price,-8.0,<ValueError>,0
+P4 discounts,gpt-5.4 02,negative items,100.0,<ValueError>,0
+P4 discounts,gpt-5.4 03,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-5.4 03,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-5.4 03,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-5.4 03,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-5.4 03,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-5.4 03,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-5.4 03,unknown type,100.0,100.0,1
+P4 discounts,gpt-5.4 03,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-5.4 03,price 0,0.0,0.0,1
+P4 discounts,gpt-5.4 03,negative price,-8.0,<ValueError>,0
+P4 discounts,gpt-5.4 03,negative items,100.0,<ValueError>,0
+P4 discounts,gpt-5.4 04,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-5.4 04,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-5.4 04,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-5.4 04,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-5.4 04,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-5.4 04,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-5.4 04,unknown type,100.0,100.0,1
+P4 discounts,gpt-5.4 04,BLACK_FRIDAY,100.0,70.0,0
+P4 discounts,gpt-5.4 04,price 0,0.0,0.0,1
+P4 discounts,gpt-5.4 04,negative price,-8.0,-8.0,1
+P4 discounts,gpt-5.4 04,negative items,100.0,100.0,1
+P4 discounts,gpt-5.4 05,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-5.4 05,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-5.4 05,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-5.4 05,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-5.4 05,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-5.4 05,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-5.4 05,unknown type,100.0,100.0,1
+P4 discounts,gpt-5.4 05,BLACK_FRIDAY,100.0,80.0,0
+P4 discounts,gpt-5.4 05,price 0,0.0,0.0,1
+P4 discounts,gpt-5.4 05,negative price,-8.0,<ValueError>,0
+P4 discounts,gpt-5.4 05,negative items,100.0,<ValueError>,0
+P4 discounts,gpt-5.4 06,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-5.4 06,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-5.4 06,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-5.4 06,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-5.4 06,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-5.4 06,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-5.4 06,unknown type,100.0,100.0,1
+P4 discounts,gpt-5.4 06,BLACK_FRIDAY,100.0,80.0,0
+P4 discounts,gpt-5.4 06,price 0,0.0,0.0,1
+P4 discounts,gpt-5.4 06,negative price,-8.0,-8.0,1
+P4 discounts,gpt-5.4 06,negative items,100.0,100.0,1
+P4 discounts,gpt-5.4 07,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-5.4 07,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-5.4 07,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-5.4 07,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-5.4 07,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-5.4 07,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-5.4 07,unknown type,100.0,100.0,1
+P4 discounts,gpt-5.4 07,BLACK_FRIDAY,100.0,70.0,0
+P4 discounts,gpt-5.4 07,price 0,0.0,0.0,1
+P4 discounts,gpt-5.4 07,negative price,-8.0,<ValueError>,0
+P4 discounts,gpt-5.4 07,negative items,100.0,<ValueError>,0
+P4 discounts,gpt-5.4 08,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-5.4 08,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-5.4 08,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-5.4 08,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-5.4 08,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-5.4 08,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-5.4 08,unknown type,100.0,<ValueError>,0
+P4 discounts,gpt-5.4 08,BLACK_FRIDAY,100.0,70.0,0
+P4 discounts,gpt-5.4 08,price 0,0.0,0.0,1
+P4 discounts,gpt-5.4 08,negative price,-8.0,<ValueError>,0
+P4 discounts,gpt-5.4 08,negative items,100.0,<ValueError>,0
+P4 discounts,gpt-5.4 09,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-5.4 09,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-5.4 09,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-5.4 09,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-5.4 09,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-5.4 09,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-5.4 09,unknown type,100.0,<ValueError>,0
+P4 discounts,gpt-5.4 09,BLACK_FRIDAY,100.0,70.0,0
+P4 discounts,gpt-5.4 09,price 0,0.0,0.0,1
+P4 discounts,gpt-5.4 09,negative price,-8.0,<ValueError>,0
+P4 discounts,gpt-5.4 09,negative items,100.0,<ValueError>,0
+P4 discounts,gpt-5.4 10,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-5.4 10,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-5.4 10,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-5.4 10,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-5.4 10,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-5.4 10,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-5.4 10,unknown type,100.0,100.0,1
+P4 discounts,gpt-5.4 10,BLACK_FRIDAY,100.0,70.0,0
+P4 discounts,gpt-5.4 10,price 0,0.0,0.0,1
+P4 discounts,gpt-5.4 10,negative price,-8.0,-8.0,1
+P4 discounts,gpt-5.4 10,negative items,100.0,100.0,1
+P4 discounts,gpt-6-astra 03,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-6-astra 03,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-6-astra 03,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-6-astra 03,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-6-astra 03,lowercase 'vip',1200.0,1200.0,1
+P4 discounts,gpt-6-astra 03,padded ' VIP ',1200.0,1200.0,1
+P4 discounts,gpt-6-astra 03,unknown type,100.0,100.0,1
+P4 discounts,gpt-6-astra 03,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-6-astra 03,price 0,0.0,0.0,1
+P4 discounts,gpt-6-astra 03,negative price,-8.0,-8.0,1
+P4 discounts,gpt-6-astra 03,negative items,100.0,100.0,1
+P4 discounts,gpt-6-astra 05,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-6-astra 05,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-6-astra 05,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-6-astra 05,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-6-astra 05,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-6-astra 05,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-6-astra 05,unknown type,100.0,100.0,1
+P4 discounts,gpt-6-astra 05,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-6-astra 05,price 0,0.0,0.0,1
+P4 discounts,gpt-6-astra 05,negative price,-8.0,-8.0,1
+P4 discounts,gpt-6-astra 05,negative items,100.0,100.0,1
+P4 discounts,gpt-6-astra 06,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-6-astra 06,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-6-astra 06,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-6-astra 06,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-6-astra 06,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-6-astra 06,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-6-astra 06,unknown type,100.0,100.0,1
+P4 discounts,gpt-6-astra 06,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-6-astra 06,price 0,0.0,0.0,1
+P4 discounts,gpt-6-astra 06,negative price,-8.0,-8.0,1
+P4 discounts,gpt-6-astra 06,negative items,100.0,100.0,1
+P4 discounts,gpt-6-astra 07,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-6-astra 07,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-6-astra 07,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-6-astra 07,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-6-astra 07,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-6-astra 07,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-6-astra 07,unknown type,100.0,100.0,1
+P4 discounts,gpt-6-astra 07,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-6-astra 07,price 0,0.0,0.0,1
+P4 discounts,gpt-6-astra 07,negative price,-8.0,-8.0,1
+P4 discounts,gpt-6-astra 07,negative items,100.0,100.0,1
+P4 discounts,gpt-6-astra 08,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-6-astra 08,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-6-astra 08,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-6-astra 08,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-6-astra 08,lowercase 'vip',1200.0,1200.0,1
+P4 discounts,gpt-6-astra 08,padded ' VIP ',1200.0,1200.0,1
+P4 discounts,gpt-6-astra 08,unknown type,100.0,100.0,1
+P4 discounts,gpt-6-astra 08,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-6-astra 08,price 0,0.0,0.0,1
+P4 discounts,gpt-6-astra 08,negative price,-8.0,-8.0,1
+P4 discounts,gpt-6-astra 08,negative items,100.0,100.0,1
+P4 discounts,gpt-6-astra 10,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-6-astra 10,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-6-astra 10,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-6-astra 10,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-6-astra 10,lowercase 'vip',1200.0,1200.0,1
+P4 discounts,gpt-6-astra 10,padded ' VIP ',1200.0,1200.0,1
+P4 discounts,gpt-6-astra 10,unknown type,100.0,100.0,1
+P4 discounts,gpt-6-astra 10,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-6-astra 10,price 0,0.0,0.0,1
+P4 discounts,gpt-6-astra 10,negative price,-8.0,-8.0,1
+P4 discounts,gpt-6-astra 10,negative items,100.0,100.0,1
+P4 discounts,gpt-6-astra 01,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-6-astra 01,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-6-astra 01,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-6-astra 01,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-6-astra 01,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-6-astra 01,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-6-astra 01,unknown type,100.0,100.0,1
+P4 discounts,gpt-6-astra 01,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-6-astra 01,price 0,0.0,0.0,1
+P4 discounts,gpt-6-astra 01,negative price,-8.0,-8.0,1
+P4 discounts,gpt-6-astra 01,negative items,100.0,100.0,1
+P4 discounts,gpt-6-astra 02,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-6-astra 02,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-6-astra 02,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-6-astra 02,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-6-astra 02,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-6-astra 02,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-6-astra 02,unknown type,100.0,100.0,1
+P4 discounts,gpt-6-astra 02,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-6-astra 02,price 0,0.0,0.0,1
+P4 discounts,gpt-6-astra 02,negative price,-8.0,-8.0,1
+P4 discounts,gpt-6-astra 02,negative items,100.0,100.0,1
+P4 discounts,gpt-6-astra 04,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-6-astra 04,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-6-astra 04,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-6-astra 04,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-6-astra 04,lowercase 'vip',1200.0,1020.0,0
+P4 discounts,gpt-6-astra 04,padded ' VIP ',1200.0,1020.0,0
+P4 discounts,gpt-6-astra 04,unknown type,100.0,100.0,1
+P4 discounts,gpt-6-astra 04,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-6-astra 04,price 0,0.0,0.0,1
+P4 discounts,gpt-6-astra 04,negative price,-8.0,-8.0,1
+P4 discounts,gpt-6-astra 04,negative items,100.0,100.0,1
+P4 discounts,gpt-6-astra 09,REGULAR 10 items,500.0,500.0,1
+P4 discounts,gpt-6-astra 09,REGULAR 11 items,475.0,475.0,1
+P4 discounts,gpt-6-astra 09,VIP price 1000,900.0,900.0,1
+P4 discounts,gpt-6-astra 09,VIP price 1000.01,850.0085,850.0085,1
+P4 discounts,gpt-6-astra 09,lowercase 'vip',1200.0,1200.0,1
+P4 discounts,gpt-6-astra 09,padded ' VIP ',1200.0,1200.0,1
+P4 discounts,gpt-6-astra 09,unknown type,100.0,100.0,1
+P4 discounts,gpt-6-astra 09,BLACK_FRIDAY,100.0,100.0,1
+P4 discounts,gpt-6-astra 09,price 0,0.0,0.0,1
+P4 discounts,gpt-6-astra 09,negative price,-8.0,-8.0,1
+P4 discounts,gpt-6-astra 09,negative items,100.0,100.0,1

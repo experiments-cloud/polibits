@@ -1,0 +1,13 @@
+scenario,comparison,p_holm,cliffs_delta,H
+P2 documents,Kruskal-Wallis (3 models),0.011,,9.07
+P2 documents,gpt-4o vs gpt-5.4,0.034,0.68,
+P2 documents,gpt-4o vs gpt-6-astra,0.051,0.6,
+P2 documents,gpt-5.4 vs gpt-6-astra,0.16,-0.38,
+P2 discounts,Kruskal-Wallis (3 models),0.004,,11.03
+P2 discounts,gpt-4o vs gpt-5.4,0.023,0.68,
+P2 discounts,gpt-4o vs gpt-6-astra,0.0085,0.8,
+P2 discounts,gpt-5.4 vs gpt-6-astra,0.47,0.2,
+P4 discounts,Kruskal-Wallis (3 models),0.00012,,18.01
+P4 discounts,gpt-4o vs gpt-5.4,0.0058,-0.74,
+P4 discounts,gpt-4o vs gpt-6-astra,0.00075,1.0,
+P4 discounts,gpt-5.4 vs gpt-6-astra,0.00075,1.0,

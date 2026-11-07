@@ -1,0 +1,13 @@
+scenario,solution,n,median,min,max,samples_faster_than_human
+P2 documents,GPT-4o,10,2.69,2.08,3.68,2
+P2 documents,GPT-5.4,10,2.27,2.02,2.45,2
+P2 documents,GPT-6 Astra,10,2.42,2.2,2.62,0
+P2 documents,Human,1,2.09,,,
+P2 discounts,GPT-4o,10,4.2,3.27,5.46,0
+P2 discounts,GPT-5.4,10,3.61,3.28,4.04,0
+P2 discounts,GPT-6 Astra,10,3.4,3.04,3.78,0
+P2 discounts,Human,1,2.77,,,
+P4 discounts,GPT-4o,10,3.37,3.23,4.3,0
+P4 discounts,GPT-5.4,10,7.7,2.91,9.41,0
+P4 discounts,GPT-6 Astra,6,2.36,1.87,2.87,0
+P4 discounts,Human,1,1.86,,,

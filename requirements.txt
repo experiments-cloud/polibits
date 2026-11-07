@@ -1,0 +1,4 @@
+radon==6.0.1
+scipy>=1.11
+matplotlib>=3.8
+openai>=1.40      # only for generate_samples.py

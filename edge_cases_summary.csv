@@ -1,0 +1,9 @@
+exercise,solution,fully_matching,total
+P2,Human,1,1
+P2,gpt-4o,0,10
+P2,gpt-5.4,0,10
+P2,gpt-6-astra,10,10
+P4,Human,1,1
+P4,gpt-4o,0,10
+P4,gpt-5.4,0,10
+P4,gpt-6-astra,4,10
